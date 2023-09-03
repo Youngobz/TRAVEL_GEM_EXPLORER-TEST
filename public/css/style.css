@@ -80,6 +80,7 @@
 .comments-container {
   background-color: #f0f0f0;
   border-radius: 5px;
+  position: relative;
 }
 
 .quote {
@@ -267,6 +268,9 @@
 .delete-icon {
   padding: 0 6px 6px;
   cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
 }
 
 .delete-icon img {
